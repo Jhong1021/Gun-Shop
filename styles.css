@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white; /* Optionally set text color to white for better readability */
+    color: white;
 }
 
 .navbar-custom {
@@ -21,8 +21,8 @@ body {
     position: relative;
     color: white;
     text-align: center;
-    padding: 100px 0; /* Adjust padding as needed */
-    height: 100vh; /* Ensures the section covers the entire viewport height */
+    padding: 100px 0; 
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,18 +35,18 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 is 50% opaque black) */
+    background: rgba(0, 0, 0, 0.5); 
     z-index: 1;
 }
 
 .hero .container {
     position: relative;
-    z-index: 2; /* Ensure content is above the background overlay */
+    z-index: 2; 
 }
 
 
 .carousel-inner img {
-    height: 500px; /* Adjust the height as needed */
+    height: 500px; 
 }
 
 .custom-btn {
@@ -56,12 +56,12 @@ body {
 }
 
 .custom-btn:hover {
-    background-color: darkorange; /* Adjust the hover color if needed */
+    background-color: darkorange; 
 }
 
 .card-img-top {
-    height: 200px; /* Set a fixed height for all card images */
-    object-fit: cover; /* Ensure images cover the entire container */
+    height: 200px; 
+    object-fit: cover; 
 }
 
 body, h1, h2, h3, h4, h5, h6, p, a, .btn, .card-title, .card-text, .navbar-brand, .nav-link, .carousel-caption {
@@ -69,7 +69,3 @@ body, h1, h2, h3, h4, h5, h6, p, a, .btn, .card-title, .card-text, .navbar-brand
     font-weight: 400;
     font-style: normal;
 }
-
-  
-
-
